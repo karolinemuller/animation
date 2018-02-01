@@ -1,0 +1,72 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+    background-color: white;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@keyframes example {
+    0% {
+        background-color: lightgreen;
+    }
+    50% {
+        background-color: lightcyan;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+
+article {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    animation-name: overskrift;
+        animation-duration: 6s;
+    animation-iteration-count: 3;
+}
+
+@keyframes overskrift {
+    0% {
+        font-size: 2rem;    
+    }
+    
+    50% {
+        font-size: 8rem;
+    }
+    
+    100% {
+        font-size: 2rem;
+    }
+}
+
+#first {
+    width: 50rem;
+}
+
+.broen {
+    animation-name: hej;
+    animation-duration: 5s;
+    width: 30%;
+   
+}
+@keyframes hej {
+    from {
+         transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+
+    }
+}
